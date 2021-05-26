@@ -1,0 +1,382 @@
+site_url: https://milkandhoney.kitchen
+
+display_url: https://milkandhoney.kitchen
+
+logo_url: https://milkandhoney.kitchen/images/mh.svg
+
+backend:
+  name: github
+  branch: master
+  repo: adamlwomble/milk-and-honey
+  
+locale: en-US
+
+publish_mode: editorial_workflow
+
+media_folder: static/images
+
+collections:
+  - name: allergens
+    label: Allergens
+    label_singular: Allergen
+    folder: content/allergens
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+  - name: authors
+    label: Authors
+    label_singular: Author
+    folder: content/authors
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Name
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: image
+        label: Image
+        widget: relation
+        collection: images
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+  - name: blogs
+    label: Blogs
+    label_singular: Blog
+    folder: content/blogs
+    create: true
+    extension: md
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: categories
+        label: Categories
+        widget: relation
+        collection: categories
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+      - name: cover
+        label: Cover
+        widget: relation
+        collection: images
+        display_fields:
+            - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+      - name: publish
+        label: Publish
+        widget: datetime
+        format: YYYY-MM-DDTHH:mm:ssZ
+        picker_utc: true
+        time_format: false 
+      - name: body
+        label: Body
+        widget: markdown
+        buttons:
+          - bold
+          - italic
+          - link
+          - heading-two
+          - heading-three
+          - heading-four
+          - heading-five
+          - heading-six
+          - quote
+          - bulleted-list
+          - numbered-list
+    preview_path: baking/blogs/{{slug}}
+  - name: brands
+    label: Brands
+    label_singular: Brand
+    folder: content/brands
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: href
+        label: Link
+        widget: string
+        required: false
+  - name: categories
+    label: Categories
+    label_singular: Category
+    folder: content/categories
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: emoji
+        label: Emoji
+        widget: string
+  - name: foodDataCentrals
+    label: Food Data Centrals
+    label_singular: Food Data Central
+    folder: content/foodDataCentrals
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: fdcId
+        label: Identity
+        widget: number
+        value_type: int
+      - name: ingredient
+        label: Ingredient
+        widget: relation
+        collection: ingredients
+        display_fields:
+          - title
+        value_fields: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+      - name: brand
+        label: Brand
+        widget: relation
+        collection: brands
+        display_fields:
+          - title
+        value_fields: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+        required: false
+  - name: images
+    label: Images
+    label_singular: Image
+    folder: content/images
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: src
+        label: File
+        widget: image
+  - name: ingredients
+    label: Ingredients
+    label_singular: Ingredient
+    folder: content/ingredients
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: volume
+        label: Volume
+        widget: relation
+        collection: volumes
+        display_fields:
+          - title
+        value_fields: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+      - name: weight
+        label: Weight
+        widget: relation
+        collection: weights
+        display_fields:
+          - title
+        value_fields: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+      - name: allergens
+        label: Allergens
+        widget: relation
+        collection: allergens
+        display_fields:
+          - title
+        value_fields: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+        required: false
+      - name: brands
+        label: Brands
+        widget: relation
+        collection: brands
+        display_fields:
+          - title
+        value_fields: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+        required: false
+  - name: recipes
+    label: Recipes
+    label_singular: Recipe
+    folder: content/recipes
+    create: true
+    extension: md
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: categories
+        label: Categories
+        widget: relation
+        collection: categories
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+      - name: cover
+        label: Cover
+        widget: relation
+        collection: images
+        display_fields:
+            - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+      - name: publish
+        label: Publish
+        widget: datetime
+        format: YYYY-MM-DDTHH:mm:ssZ
+        picker_utc: true
+        time_format: false 
+      - name: ingredients
+        label: Ingredients
+        widget: relation
+        collection: ingredients
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+      - name: time
+        label: Time
+        widget: string
+        required: false
+      - name: steps
+        label: Steps
+        label_singular: Step
+        widget: list
+        minimize_collapsed: true
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: description
+            label: Description
+            widget: markdown
+            buttons:
+              - bold
+              - italic
+              - link
+    preview_path: baking/recipes/{{slug}}
+  - name: series
+    label: Series
+    label_singular: Series
+    folder: content/series
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: blogs
+        label: Blogs
+        widget: relation
+        collection: blogs
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+        required: false
+      - name: recipes
+        label: Recipes
+        widget: relation
+        collection: recipes
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: true
+        required: false
+  - name: volumes
+    label: Volumes
+    label_singular: Volume
+    folder: content/volumes
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+  - name: weights
+    label: Weights
+    label_singular: Weight
+    folder: content/weights
+    create: true
+    extension: json
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
