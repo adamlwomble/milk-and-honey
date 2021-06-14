@@ -1,4 +1,4 @@
-# milk-and-honey-kitchen
+# Milk + Honey Kitchen
 
 ## Build Setup
 
