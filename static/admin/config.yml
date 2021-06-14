@@ -5,7 +5,7 @@ display_url: https://milkandhoney.kitchen
 logo_url: https://milkandhoney.kitchen/images/mh.svg
 
 backend:
-  name: github
+  name: git-gateway
   branch: master
   repo: adamlwomble/milk-and-honey
   
