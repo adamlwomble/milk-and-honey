@@ -163,7 +163,7 @@ collections:
         collection: ingredients
         display_fields:
           - title
-        value_fields: '{{slug}}'
+        value_field: '{{slug}}'
         search_fields:
           - title
         multiple: false
@@ -173,7 +173,7 @@ collections:
         collection: brands
         display_fields:
           - title
-        value_fields: '{{slug}}'
+        value_field: '{{slug}}'
         search_fields:
           - title
         multiple: false
@@ -213,7 +213,7 @@ collections:
         collection: volumes
         display_fields:
           - title
-        value_fields: '{{slug}}'
+        value_field: '{{slug}}'
         search_fields:
           - title
         multiple: false
@@ -223,7 +223,7 @@ collections:
         collection: weights
         display_fields:
           - title
-        value_fields: '{{slug}}'
+        value_field: '{{slug}}'
         search_fields:
           - title
         multiple: false
@@ -233,7 +233,7 @@ collections:
         collection: allergens
         display_fields:
           - title
-        value_fields: '{{slug}}'
+        value_field: '{{slug}}'
         search_fields:
           - title
         multiple: true
@@ -244,7 +244,7 @@ collections:
         collection: brands
         display_fields:
           - title
-        value_fields: '{{slug}}'
+        value_field: '{{slug}}'
         search_fields:
           - title
         multiple: true
