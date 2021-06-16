@@ -3,7 +3,7 @@ title: Cookie Blog
 description: "Instructional entry on cookie making "
 categories:
   - blog
-cover: memoji-of-chef-megan
+cover: cowboy-cookies
 publish: 2021-06-16T15:43:49-05:00
 ---
 Hello, Bakers! And, welcome to my first official food blog. I think a great item to start with, no matter your skill level, is cookies! 
