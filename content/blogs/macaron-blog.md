@@ -1,5 +1,5 @@
 ---
-title: "Macaron Blog "
+title: Macarons
 description: "Helpful tips to make the classic sandwich cookie "
 categories:
   - pastries
