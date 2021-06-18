@@ -1,0 +1,35 @@
+---
+title: "Lamination Blog "
+description: "Helpful tips on the process of lamination "
+categories:
+  - pastries
+cover: lamination
+publish: 2021-06-18T15:46:07-05:00
+---
+Hello, Bakers! In this blog, we’re talking about lamination and there is no time to waste so, here we go! Lamination is the process of repeatedly folding butter into dough. This process leads to hundreds of thin, alternating layers of butter and dough. Lamination is how bakers achieve the delicate, flaky texture associated all over the world with the croissant!
+
+Although laminating by hand is hard work, it is extremely rewarding. If you’ve ever pulled a Thanksgiving meal together, you know what I’m talking about. The fruits of your labor are always a little sweeter than the store bought equivalent, especially when shared with friends and loved ones! Once you’ve learned the skill of lamination, a world of opportunity will open up to you. Next thing you know, you’ll be making morning buns, danishes, and even cronuts!
+
+To save time, I will be discussing the process of lamination rather than specific recipes. These techniques I use to laminate dough at home can be applied to a croissant recipe as well as puff pastry and danish dough with just a couple small changes. The important part is good technique rather than a specific type of fold or dough. So, let’s dive into those tips now!
+
+I’ve learned through my experience that, in most cases, lamination doesn’t start until the day after making the dough. This is because in most cases the dough needs to mature in the refrigerator overnight. Once the dough is finished and tucked away in the fridge for the night I can focus on the butter block. I prefer to work with soft butter to shape the butter block into the exact shape I want. So, I leave the butter for the butter block out at room temperature on the same night the dough is resting in the fridge. While the dough chills, matures, and develops flavor, the butter comes to room temperature. 
+
+Butter blocks work best when they are as close to a perfect rectangle as possible. To do this I make a template on parchment paper with a permanent maker and a ruler. Sketch out a rectangle (size specified in recipes) then turn the parchment upside down so that you can see the template, but will avoid getting permanent marker into your finished product (not tasty). 
+
+On lamination day take your dough out of the fridge to start warming slowly. The ideal temperature for your dough is between 54º and 56ºF.  While the dough warms, make your butter block. With gloved hands, press your butter into the template you made and try to achieve an even thickness and straight edges. You can use an offset spatula or a bowl scraper to help smooth and flatten. Once you’re happy with your butter block, wrap the excess parchment around the butter like a present and place it in the freezer for 2-5 minutes. You’re aiming for your butter to become 67º -  70ºF. 
+
+While your butter is chilling in the freezer, flour your work surface, hands, and rolling pin. Place your dough directly onto the work surface and press into the dough with your hands to begin shaping it into a rectangle. This will help warm the dough up and knock any extra air bubbles out before rolling. Next, roll your dough to a rectangle (size specified in recipes) and brush any excess flour off the dough to prepare it for the butter block. 
+
+At this point, both your butter block and your dough should be the specified size but, before proceeding, take the temperature of your dough and your butter block. Remember, the ideal temperature for your dough will be between 54º and 56º fahrenheit and your butter block should be between 67º and 70º fahrenheit. If your butter and dough are within the correct temperature ranges, lamination can begin!
+
+While laminating, have a large brush handy to dust excess flour off the dough to prevent flour from getting laminated into the pastry. Leaving the flour between layers will cause a chewy texture and an unpleasant taste. To laminate, place your butter block in the center of your dough. Fold the excess dough into the middle. The dough should meet in the center and enclose the butter. Gently pinch the seam closed and also pinch the top and bottom of the dough closed if needed.  Your butter should now be in a snug dough envelope.
+
+Begin rolling immediately, re-flouring your surface and rolling pin if necessary. Once your dough has reached the desired dimensions, give the dough a minute or two to rest. This will let the gluten retract and the dough may shrink a bit. *Be patient and make sure your dough is at the desired dimensions while fully rested*. With a floured hand, run your finger underneath the perimeter of the dough to help release it from the work surface if necessary. If the dough has remained the desired length and width after resting, brush off the excess flour and  fold ⅓ of the dough towards the middle, then fold the opposite ⅓ over that. This will look like a book and is the sign you’ve achieved your first fold.
+
+By now, your butter and dough have probably warmed up significantly. In order to keep the pastry and butter chilled and gluten well-rested, gently transfer the dough a sheet pan lined with parchment paper. Cover it gently loosely in plastic wrap then allow it to rest in the fridge for 20 - 30 minutes. Repeat the process of rolling, folding, and chilling as many times as specified in the recipe. After the final fold, allow the dough to rest in the fridge for up to two hours so the gluten has ample time to rest before the final roll out and make-up.
+
+Once your dough has completely chilled and rested, it is time for your last roll out. Your last roll out and instructions on shaping and finishing the product before baking is called make-up. So whether you are making up croissants, morning buns, danishes, or any other laminated pastry, enjoy it because this is the most fun part of the process besides taste testing!
+
+A final word on proofing and baking laminated dough: I proof laminated dough much like my bread. However, when my oven preheats, I place my tray of *proofed pastries* in the fridge for the 10 minutes or so it takes for my oven to preheat. This helps the pastries hold their shape and the butter to steam properly in the oven. Once your pastries are in the oven DO NOT OPEN YOUR OVEN! This is a lesson I learned the hard way. Opening your oven may cause you to lose the puffy texture you worked so hard to achieve leaving you with a chewy and somewhat flat pastries. Bummer!
+
+With all that said, I will now wish you the best on your own lamination journey at home. Give yourself some grace as you try out a few laminated recipes and know that no matter what, you’re eating something with a ton of butter in it, So even if it doesn’t turn out perfectly, it’ll be delicious! Happy baking!
