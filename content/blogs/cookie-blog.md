@@ -1,5 +1,5 @@
 ---
-title: Cookie Blog
+title: Cookies
 description: "Instructional entry on cookie making "
 categories:
   - blog
