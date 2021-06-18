@@ -1,5 +1,5 @@
 ---
-title: "Lamination Blog "
+title: "Lamination "
 description: "Helpful tips on the process of lamination "
 categories:
   - pastries
