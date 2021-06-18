@@ -29,7 +29,7 @@ Transfer the batter to the piping bag you prepared earlier and begin piping on t
 
 Once the shells are completely dry they are ready for the oven. Bake the shells for 8-10 minutes at 350ª F. You should see “feet” (frilly bottoms) on your meringues within just a few minutes. Once they are done baking, place the sheets on a cooling rack and allow the shells to cool down fully before removing them from the pan. 
 
-Now, a quick word before you move onto filling your macarons. Match up the shells by holding them insides-together to find the most even match in both size and shape. If they look even and close in size, place one shell right side up and the other shell upside down. Continue this process until all the shells are matched up in a line. This makes piping the filling into the macarons so much easier. 
+Now, a quick word before you move onto filling your macarons. I like to call this step “match-making”. Match up the shells by holding them insides-together to find the most even match in both size and shape. If they look even and close in size, place one shell right side up and the other shell upside down. Continue this process until all the shells are matched up in a line. This makes piping the filling into the macarons so much easier. 
 
 Finally, fill a piping bag with buttercream, jam, ganache, or whatever filling you’d like and get to work by piping the filling onto the bottom shell. Once the bottom shell is filled, you can easily pick up the top shell you designated earlier and gently press it onto the filling to make the iconic sandwich cookie!
 
