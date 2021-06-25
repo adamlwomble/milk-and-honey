@@ -1,5 +1,5 @@
 ---
-title: Bread
+title: "Bread Basics "
 description: "A blog about bread making "
 categories:
   - bread
