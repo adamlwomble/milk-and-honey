@@ -207,26 +207,6 @@ collections:
       - name: description
         label: Description
         widget: string
-      - name: volume
-        label: Volume
-        widget: relation
-        collection: volumes
-        display_fields:
-          - title
-        value_field: '{{slug}}'
-        search_fields:
-          - title
-        multiple: false
-      - name: weight
-        label: Weight
-        widget: relation
-        collection: weights
-        display_fields:
-          - title
-        value_field: '{{slug}}'
-        search_fields:
-          - title
-        multiple: false
       - name: allergens
         label: Allergens
         widget: relation
