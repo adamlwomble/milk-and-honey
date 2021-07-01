@@ -4,5 +4,8 @@
   "allergens": [
     "whey",
     "lactose-intolerance"
+  ],
+  "brands": [
+    "tillamook"
   ]
 }
