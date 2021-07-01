@@ -1,0 +1,11 @@
+{
+  "title": "Butter",
+  "description": "Dairy product made from churned cream ",
+  "allergens": [
+    "whey",
+    "lactose-intolerance"
+  ],
+  "brands": [
+    "kerrygold"
+  ]
+}
