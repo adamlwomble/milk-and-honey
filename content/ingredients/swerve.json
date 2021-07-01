@@ -1,4 +1,7 @@
 {
   "title": "Swerve ",
-  "description": "Synthetic sugar alternative "
+  "description": "Synthetic sugar alternative ",
+  "brands": [
+    "swerve-1"
+  ]
 }
