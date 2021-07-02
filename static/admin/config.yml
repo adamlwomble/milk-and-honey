@@ -270,14 +270,52 @@ collections:
         time_format: false 
       - name: ingredients
         label: Ingredients
-        widget: relation
-        collection: ingredients
-        display_fields:
-          - title
-        value_field: '{{slug}}'
-        search_fields:
-          - title
-        multiple: true
+        widget: list
+        fields:
+          - name: title
+            label: Title
+            widget: relation
+            collection: ingredients
+            display_fields:
+              - title
+            value_field: '{{slug}}'
+            search_fields:
+              - title
+            multiple: false
+          - name: weight
+            label: Weight
+            widget: object
+            fields:
+              - name: amount
+                label: Amount
+                widget: number
+                value_type: float
+              - name: title
+                label: Title
+                widget: relation
+                collection: weights
+                display_fields:
+                  - title
+                value_field: '{{slug}}'
+                search_fields:
+                  - title
+          - name: volume
+            label: Volume
+            widget: object
+            fields:
+              - name: amount
+                label: Amount
+                widget: number
+                value_type: float
+              - name: title
+                label: Title
+                widget: relation
+                collection: volumes
+                display_fields:
+                  - title
+                value_field: '{{slug}}'
+                search_fields:
+                  - title
       - name: time
         label: Time
         widget: string
