@@ -270,6 +270,7 @@ collections:
         time_format: false 
       - name: ingredients
         label: Ingredients
+        label_singular: Ingredient
         widget: list
         fields:
           - name: title
