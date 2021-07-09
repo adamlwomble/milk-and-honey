@@ -3,7 +3,7 @@ title: "Multigrain Bread "
 description: "6 whole grains to enjoy in this vegan loaf "
 categories:
   - bread
-cover: challah
+cover: multigrain-bread
 publish: 2021-07-09T16:26:37-05:00
 ingredients:
   - title: water
