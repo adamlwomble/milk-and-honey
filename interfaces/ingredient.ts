@@ -1,6 +1,7 @@
 import type {
   AllergenBaseRelationsT,
   BrandBaseRelationsT,
+  RecipeBaseRelationT,
   VolumeBaseRelationT,
   WeightBaseRelationT,
 } from '@/types'
@@ -11,4 +12,5 @@ export interface IngredientBaseI extends ResourceBaseI {
   brands: BrandBaseRelationsT
   volume: VolumeBaseRelationT
   weight: WeightBaseRelationT
+  recipe: RecipeBaseRelationT
 }
