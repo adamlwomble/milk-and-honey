@@ -229,6 +229,17 @@ collections:
           - title
         multiple: true
         required: false
+      - name: recipe
+        label: Recipe
+        widget: relation
+        collection: recipes
+        display_fields:
+          - title
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        multiple: false
+        required: false
   - name: recipes
     label: Recipes
     label_singular: Recipe
@@ -239,9 +250,11 @@ collections:
       - name: title
         label: Title
         widget: string
+        required: false
       - name: description
         label: Description
         widget: string
+        required: false
       - name: categories
         label: Categories
         widget: relation
@@ -252,6 +265,7 @@ collections:
         search_fields:
           - title
         multiple: true
+        required: false
       - name: cover
         label: Cover
         widget: relation
@@ -262,16 +276,19 @@ collections:
         search_fields:
           - title
         multiple: false
+        required: false
       - name: publish
         label: Publish
         widget: datetime
         format: YYYY-MM-DDTHH:mm:ssZ
         picker_utc: true
         time_format: false 
+        required: false
       - name: ingredients
         label: Ingredients
         label_singular: Ingredient
         widget: list
+        required: false
         fields:
           - name: title
             label: Title
@@ -326,6 +343,7 @@ collections:
         label_singular: Step
         widget: list
         minimize_collapsed: true
+        required: false
         fields:
           - name: title
             label: Title
