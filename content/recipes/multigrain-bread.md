@@ -2,105 +2,127 @@
 title: "Multigrain Bread "
 description: "6 whole grains to enjoy in this vegan loaf "
 categories:
-  - bread
+  - cookies
 cover: multigrain-bread
 publish: 2021-07-09T16:26:37-05:00
 ingredients:
-  - title: water
+  - title: butter
     weight:
-      amount: 16
+      amount: 4
       title: ounce
     volume:
+      amount: 8
+      title: tablespoon
+  - title: brown-sugar
+    weight:
+      amount: 5.5
+      title: ounce
+    volume:
+      amount: 0.666
+      title: cup
+  - title: sugar
+    weight:
       amount: 2
-      title: cup
-  - title: agave-nectar
-    weight:
-      amount: 1
-      title: ounce
-    volume:
-      amount: 1
-      title: tablespoon
-  - title: bread-flour
-    weight:
-      amount: 20
-      title: ounce
-    volume:
-      amount: 3.333
-      title: cup
-  - title: rye-flour
-    weight:
-      amount: 1.5
-      title: ounce
-    volume:
-      amount: 0.333
-      title: cup
-  - title: coconut-flour
-    weight:
-      amount: 1.5
-      title: ounce
-    volume:
-      amount: 0.333
-      title: cup
-  - title: instant-yeast
-    weight:
-      amount: 10
-      title: gram
-    volume:
-      amount: 1
-      title: tablespoon
-  - title: cornmeal
-    weight:
-      amount: 1.5
       title: ounce
     volume:
       amount: 0.25
       title: cup
-  - title: old-fashioned-rolled-oats
-    weight:
-      amount: 1.5
-      title: ounce
-    volume:
-      amount: 0.25
-      title: cup
-  - title: millet
-    weight:
-      amount: 1
-      title: ounce
-    volume:
-      amount: 2
-      title: tablespoon
   - title: salt
+    volume:
+      amount: 0.25
+      title: teaspoon
+    weight:
+      amount: 0.1
+      title: ounce
+  - title: egg
+    weight:
+      amount: 1
+      title: each
+    volume:
+      amount: 1
+      title: each
+  - title: instant-yeast
     weight:
       amount: 0.5
       title: ounce
     volume:
       amount: 1
       title: tablespoon
+  - title: cornmeal
+    weight:
+      amount: 5
+      title: ounce
+    volume:
+      amount: 1
+      title: cup
+  - title: old-fashioned-rolled-oats
+    weight:
+      amount: 6
+      title: ounce
+    volume:
+      amount: 1.666
+      title: cup
+  - title: ground-cinnamon
+    volume:
+      amount: 0.5
+      title: teaspoon
+    weight:
+      amount: 0.1
+      title: ounce
+  - title: baking-soda
+    volume:
+      amount: 0.5
+      title: teaspoon
+    weight:
+      amount: 0.1
+      title: ounce
+  - title: semi-sweet-chocolate-baking-chips
+    weight:
+      amount: 5
+      title: ounce
+    volume:
+      amount: 0.75
+      title: cup
+  - title: unsweetened-shredded-coconut
+    weight:
+      amount: 3
+      title: ounce
+    volume:
+      amount: 1.5
+      title: cup
+  - title: chopped-pecans
+    weight:
+      amount: 3
+      title: ounce
+    volume:
+      amount: 0.75
+      title: cup
+  - title: sea-salt
+    weight:
+      amount: 2
+      title: ounce
+    volume:
+      amount: 0.25
+      title: cup
 steps:
-  - title: "Instructions "
+  - title: "Mixing the Dough "
+    description: Using a mixer bowl with a hook attachment, combine warm water,
+      agave nectar, bread flour, rye flour, coconut flour, and yeast and mix on
+      first speed for 1 minute.
+  - title: Add the Mix-Ins
     description: >-
-      Using a mixer bowl with a hook attachment, combine warm water, agave
-      nectar, bread flour, rye flour, coconut flour, and yeast and mix on first
-      speed for 1 minute.
-
-
-
-
-      While the mixer remains on first speed, add the cornmeal, oats and millet to the dough and allow to mix for 1 minute.
+      While the mixer remains on first speed, add the cornmeal, oats and millet
+      to the dough and allow to mix for 1 minute.
 
 
 
 
       While the mixer remains on first speed, add the salt and allow the dough to mix until smooth (about 6 minutes).
-
-
-
-
-      Transfer the dough to a greased bowl and cover with plastic wrap and allow to bulk ferment at room temperature for 90 minutes.
-
-
-
-
+  - title: "Bulk Ferment "
+    description: Transfer the dough to a greased bowl and cover with plastic wrap
+      and allow to bulk ferment at room temperature for 90 minutes.
+  - title: "Shape the Bread "
+    description: >-
       Preheat the oven to 375º F.
 
 
@@ -117,20 +139,16 @@ steps:
 
 
       Sprinkle a small amount of corn meal onto a sheet pan lined with parchment paper and place the loaf on the pan.
-
-
-
-
-      Cover the loaf with a tea towel, or large container if you have one, and allow your dough to proof to double the size.
-
-
-
-
-      Once the loaf is ready to bake, dress and score your bread to your preference. I like to add a bit of flour and decorative scoring but you can also make a mixture of water and agave to brush on the dough before adding additional grains such as oats to the outside of the dough.
-
-
-
-
+  - title: "Proof the Bread "
+    description: Cover the loaf with a tea towel, or large container if you have
+      one, and allow your dough to proof to double the size.
+  - title: "Score the Bread "
+    description: Once the loaf is ready to bake, dress and score your bread to your
+      preference. I like to add a bit of flour and decorative scoring but you
+      can also make a mixture of water and agave to brush on the dough before
+      adding additional grains such as oats to the outside of the dough.
+  - title: "Bake the Bread "
+    description: >-
       Bake for 40-45 minutes.
 
 
