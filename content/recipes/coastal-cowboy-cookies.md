@@ -111,7 +111,7 @@ steps:
 
       Broil the pecans on medium-high heat until fragrant (5-7 minutes), then set aside to cool
     title: "Toast the Pecans "
-  - title: "Cream "
+  - title: "Cream the butter and sugar "
     description: >-
       In a stand mixer with a paddle attachment, cream the butter, brown sugar,
       sugar, and salt on second speed until the mixture appears fluffy (about 2
@@ -152,16 +152,16 @@ steps:
 
 
       Sprinkle each cookie with a dash of sea salt
-  - title: "Chill the Cookies "
-    description: Cover the unbaked cookies with plastic wrap and store in the
-      refrigerator for at least 2 hours, or overnight
-  - title: Bake
+  - title: "Bake the Cookies "
     description: >-
       Preheat the oven to 360° F and bake the cookies from a chilled state for
       15–17 minutes
 
 
       If your oven has hot spots, rotate your sheet pan 180° after the first 10 minutes
+  - title: "Chill the Cookies "
+    description: Cover the unbaked cookies with plastic wrap and store in the
+      refrigerator for at least 2 hours, or overnight
   - title: "Carry-over baking "
     description: After removing your cookies from the oven, allow them to sit on the
       hot sheet pan for 5 minutes before transferring them to a cooling rack
