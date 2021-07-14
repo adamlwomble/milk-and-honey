@@ -3,6 +3,7 @@ title: "Ciabatta "
 description: "An airy Italian bread perfect for sandwiches "
 categories:
   - bread
+cover: ciabatta
 publish: 2021-07-14T11:18:04-05:00
 ingredients:
   - title: water
