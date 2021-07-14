@@ -15,19 +15,12 @@ ingredients:
     volume:
       amount: 4
       title: tablespoon
-  - title: vegetable-oil
-    weight:
-      amount: 2
-      title: ounce
-    volume:
-      amount: 0.25
-      title: cup
   - title: sugar
     weight:
-      amount: 5
+      amount: 3
       title: ounce
     volume:
-      amount: 0.666
+      amount: 0.333
       title: cup
   - title: brown-sugar
     weight:
@@ -45,17 +38,17 @@ ingredients:
       title: cup
   - title: egg
     weight:
-      amount: 2
+      amount: 1
       title: each
     volume:
-      amount: 2
+      amount: 1
       title: each
   - title: buttermilk
     weight:
-      amount: 3
+      amount: 2
       title: ounce
     volume:
-      amount: 0.333
+      amount: 0.25
       title: cup
   - title: mexican-vanilla-extract
     weight:
@@ -99,13 +92,6 @@ ingredients:
     volume:
       amount: 0.25
       title: teaspoon
-  - title: ground-allspice
-    weight:
-      amount: 1
-      title: each
-    volume:
-      amount: 0.25
-      title: teaspoon
   - title: ground-cloves
     weight:
       amount: 1
@@ -120,13 +106,27 @@ ingredients:
     volume:
       amount: 0.125
       title: teaspoon
-  - title: chopped-pecans
+  - title: ground-allspice
     weight:
-      amount: 4
-      title: ounce
-    volume:
       amount: 1
-      title: cup
+      title: each
+    volume:
+      amount: 0.25
+      title: teaspoon
+  - title: sugar
+    weight:
+      amount: 1
+      title: each
+    volume:
+      amount: 2
+      title: tablespoon
+  - title: ground-cinnamon
+    weight:
+      amount: 1
+      title: each
+    volume:
+      amount: 0.25
+      title: teaspoon
 steps:
   - title: Prep your Oven and Pan
     description: >-
@@ -141,8 +141,8 @@ steps:
       mixing bowl and set aside.
   - title: "Mix your wet ingredients "
     description: >-
-      Using a stand mixer with a whip attachment, beat the butter, oil, sugar,
-      and brown sugar together on second speed until smooth and light (about 2
+      Using a stand mixer with a whip attachment beat the butter, sugar, and
+      brown sugar together on second speed until smooth and light (about 2
       minutes).
 
 
@@ -158,37 +158,19 @@ steps:
 
 
 
-      Add the eggs, buttermilk, and vanilla extract and beat on first speed until well combined.
+      Add the egg, buttermilk, and vanilla extract and beat on first speed until well combined.
   - title: "Add the dry ingredients "
     description: >-
       Add the flour, baking soda, salt, and spices to the pumpkin mixture and
       beat on first speed for about 20 seconds.
 
 
-
-
       Scrape the bowl to incorporate all the dry ingredients into the mixture and then mix on medium speed until there are no lumps (about 2 minutes).
-
-
-
-
-      Remove the mixer bowl from the stand and fold in the pecans.
   - title: "Bake the Bread "
-    description: >-
+    description: |-
       Pour the batter into the loaf pan to ¾ of the way full.
 
-
-
-
-      This recipe usually makes a bit more than needed so, if you have any batter left over, you can bake the bakers portion in a mini-loaf tin or in a muffin tin.
-
-
-
-
       Bake for 50 - 65 minutes or until a cake tester comes out clean.
-
-
-
 
       Remove the bread after 10 minutes and transfer to a cooling rack.
 ---
