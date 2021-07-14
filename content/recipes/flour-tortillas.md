@@ -3,6 +3,7 @@ title: Flour Tortillas
 description: These tortilla recipe is easy, delicious, and vegan!
 categories:
   - bread
+cover: tortillas
 publish: 2021-07-14T10:49:47-05:00
 ingredients:
   - title: all-purpose-flour
