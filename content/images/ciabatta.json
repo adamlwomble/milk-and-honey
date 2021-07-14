@@ -1,0 +1,139 @@
+{
+  "title": "Ciabatta ",
+  "ingredients": [
+    {
+      "title": "water",
+      "weight": {
+        "amount": 8,
+        "title": "ounce"
+      },
+      "volume": {
+        "amount": 1,
+        "title": "cup"
+      }
+    },
+    {
+      "title": "instant-yeast",
+      "weight": {
+        "amount": 2,
+        "title": "gram"
+      },
+      "volume": {
+        "amount": 0.75,
+        "title": "teaspoon"
+      }
+    },
+    {
+      "title": "bread-flour",
+      "weight": {
+        "amount": 8,
+        "title": "ounce"
+      },
+      "volume": {
+        "amount": 1.25,
+        "title": "cup"
+      }
+    },
+    {
+      "title": "ciabatta-poolish",
+      "weight": {
+        "amount": 16,
+        "title": "ounce"
+      },
+      "volume": {
+        "amount": 2.5,
+        "title": "cup"
+      }
+    },
+    {
+      "title": "water",
+      "weight": {
+        "amount": 15,
+        "title": "ounce"
+      },
+      "volume": {
+        "amount": 1.75,
+        "title": "cup"
+      }
+    },
+    {
+      "title": "almond-milk",
+      "weight": {
+        "amount": 1,
+        "title": "each"
+      },
+      "volume": {
+        "amount": 2,
+        "title": "tablespoon"
+      }
+    },
+    {
+      "title": "lemon-juice",
+      "weight": {
+        "amount": 0.5,
+        "title": "each"
+      },
+      "volume": {
+        "amount": 0.5,
+        "title": "each"
+      }
+    },
+    {
+      "title": "sugar",
+      "volume": {
+        "amount": 0.5,
+        "title": "teaspoon"
+      },
+      "weight": {
+        "amount": 1,
+        "title": "each"
+      }
+    },
+    {
+      "title": "extra-virgin-olive-oil",
+      "volume": {
+        "amount": 1,
+        "title": "tablespoon"
+      },
+      "weight": {
+        "amount": 1,
+        "title": "each"
+      }
+    },
+    {
+      "title": "instant-yeast",
+      "weight": {
+        "amount": 15,
+        "title": "gram"
+      },
+      "volume": {
+        "amount": 3.5,
+        "title": "teaspoon"
+      }
+    },
+    {
+      "title": "bread-flour",
+      "weight": {
+        "amount": 20,
+        "title": "ounce"
+      },
+      "volume": {
+        "amount": 3,
+        "title": "cup"
+      }
+    },
+    {
+      "title": "salt",
+      "volume": {
+        "amount": 1,
+        "title": "tablespoon"
+      },
+      "weight": {
+        "amount": 1,
+        "title": "each"
+      }
+    }
+  ],
+  "description": "Ciabatta ",
+  "src": "/static/images/0471b583-583b-477c-90bb-ff07c0cac0ba.jpeg"
+}
