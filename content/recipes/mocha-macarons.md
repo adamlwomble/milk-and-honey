@@ -4,7 +4,7 @@ description: Delicate chocolate and coffee notes in the classic sandwich cookie
 categories:
   - cookies
   - pastries
-cover: ""
+cover: mocha-macarons
 publish: 2021-07-15T12:17:10-05:00
 ingredients:
   - title: macaron-shells
