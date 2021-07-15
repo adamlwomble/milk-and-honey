@@ -49,6 +49,13 @@ ingredients:
     volume:
       amount: 2
       title: tablespoon
+  - title: espresso-syrup
+    weight:
+      amount: 3
+      title: ounce
+    volume:
+      amount: 0.25
+      title: cup
 steps:
   - title: "Make the Macaron Shells "
     description: >-
