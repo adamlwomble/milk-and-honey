@@ -63,6 +63,13 @@ ingredients:
     volume:
       amount: 1.25
       title: cup
+  - title: kettle-corn
+    weight:
+      amount: 5
+      title: ounce
+    volume:
+      amount: 8
+      title: cup
   - title: baking-soda
     weight:
       amount: 0.1
