@@ -1,0 +1,10 @@
+{
+  "title": "Pie Dough ",
+  "description": "This versatile dough is used in many pie recipes on Milk + Honey ",
+  "allergens": [
+    "whey",
+    "lactose-intolerance",
+    "wheat-allergy"
+  ],
+  "recipe": "pie-dough"
+}
