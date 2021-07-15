@@ -7,6 +7,13 @@ categories:
 cover: ""
 publish: 2021-07-15T12:17:10-05:00
 ingredients:
+  - title: macaron-shells
+    weight:
+      amount: 1
+      title: each
+    volume:
+      amount: 1
+      title: each
   - title: water
     weight:
       amount: 6
