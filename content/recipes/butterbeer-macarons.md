@@ -4,6 +4,7 @@ description: "Macarons inspired by the fictional drink from Harry Potter "
 categories:
   - cookies
   - pastries
+cover: butterbeer-macarons
 publish: 2021-07-15T12:30:52-05:00
 ingredients:
   - title: macaron-shells
