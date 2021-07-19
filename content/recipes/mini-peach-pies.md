@@ -85,21 +85,13 @@ ingredients:
 steps:
   - title: "Make the Pie Dough "
     description: Make the Pie Dough as instructed
-  - title: "Make the Peach Filling "
+  - title: "Prep the Peaches "
+    description: Place the frozen peaches in a sieve over a large mixing bowl. Toss
+      the peach slices in the juice of ½ a lemon, cover with plastic wrap and
+      place in the refrigerator to thaw overnight. This will allow the peaches
+      to thaw out without browning overnight.
+  - title: "Cook the Peaches "
     description: >-
-      Special Note:
-
-
-      Place the frozen peaches in a sieve over a large mixing bowl. Toss the peach slices in the juice of ½ a lemon, cover with plastic wrap and place in the refrigerator to thaw overnight. This will allow the peaches to thaw out without browning overnight.
-
-
-
-
-      Instructions:
-
-
-
-
       In a large saucepan over medium heat, melt the butter.
 
 
@@ -116,26 +108,22 @@ steps:
 
 
       Let this mixture simmer until the peaches become tender, stirring often ( about 6-8 minutes).
-
-
-
-
-      While the preaches are simmering, mix the cornstarch and the second portion of water into a small container beating until smooth.
-
-
-
-
-      Once the peaches are tender, add the cornstarch mixture to the saucepan and stir continuously until the filling becomes thick and begins to boil.
+  - title: Make a Slurry
+    description: While the preaches are simmering, mix the cornstarch and the second
+      portion of water into a small container beating until smooth.
+  - title: "Thicken and Finish the Filling "
+    description: >-
+      Once the peaches are tender, add the cornstarch mixture to the saucepan
+      and stir continuously until the filling becomes thick and begins to boil.
 
 
 
 
       Remove the saucepan from heat and stir in the vanilla while the filling is hot.
-
-
-
-
-      Pour the filling onto a clean sheet pan and lay cling wrap onto the hot filling then place the sheet pan in the refrigerator to chill.
+  - title: "Cool the Filling "
+    description: >-
+      Pour the filling onto a clean sheet pan and lay cling wrap onto the hot
+      filling then place the sheet pan in the refrigerator to chill.
 
 
 
@@ -169,7 +157,7 @@ steps:
 
 
       Throughout this process place the mini pie crusts in the refrigerator to prevent them from getting too warm if needed.
-  - title: "Egg wash the Pies "
+  - title: "Prep mini pies for assembly "
     description: >-
       Make an egg wash by cracking an egg into a small container with a pinch of
       salt and beat it well.
