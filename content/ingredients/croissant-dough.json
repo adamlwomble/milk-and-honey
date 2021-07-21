@@ -1,0 +1,10 @@
+{
+  "title": "Croissant Dough ",
+  "description": "Laminated pastry dough ",
+  "allergens": [
+    "lactose-intolerance",
+    "wheat-allergy",
+    "whey"
+  ],
+  "recipe": "croissants"
+}
