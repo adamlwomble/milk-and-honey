@@ -33,6 +33,13 @@ ingredients:
     volume:
       amount: 2
       title: tablespoon
+  - title: egg-yolk
+    weight:
+      amount: 2
+      title: each
+    volume:
+      amount: 2
+      title: each
   - title: egg
     weight:
       amount: 1
