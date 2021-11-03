@@ -1,19 +1,26 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { SeriesBaseContentT, SeriesBaseResultT } from '@/types'
-import type { SeriesBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { SeriesT } from '@/types'
+import type { SeriesI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function seriesBaseResultFilter(
-  result: SeriesBaseResultT,
-  value: any,
-  key: keyof SeriesBaseContentT
-): SeriesBaseResultT {
-  return resultFilter<SeriesBaseI>(result, value, key)
+export async function fetch(
+  $content: contentFunc
+): Promise<SeriesT.DocumentsT> {
+  return await Content.fetch<SeriesI.ContentI>($content, 'series')
 }
 
-export function seriesBaseResultFind(
-  result: SeriesBaseResultT,
+export function filter(
+  documents: SeriesT.DocumentsT,
   value: any,
-  key: keyof SeriesBaseContentT
-): SeriesBaseResultT {
-  return resultFind<SeriesBaseI>(result, value, key)
+  key: keyof SeriesT.DocumentT = 'slug'
+): SeriesT.DocumentsT {
+  return Content.filter<SeriesI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: SeriesT.DocumentsT,
+  value: any,
+  key: keyof SeriesT.DocumentT = 'slug'
+): SeriesT.DocumentsT {
+  return Content.find<SeriesI.ContentI>(documents, value, key)
 }
