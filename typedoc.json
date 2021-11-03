@@ -1,0 +1,4 @@
+{
+  "entryPoints": [".nuxt/index.js"],
+  "out": "docs"
+}
