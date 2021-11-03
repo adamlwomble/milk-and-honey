@@ -1,0 +1,36 @@
+---
+title: Macarons
+description: "Helpful tips to make the classic sandwich cookie "
+categories:
+  - pastries
+  - cookies
+cover: macarons
+publish: 2021-06-18T16:06:02-05:00
+---
+Hello, Bakers! Welcome to another baking blog. In this blog I will attempt to articulate the methods and techniques I was taught and continue to use in making macarons. Macarons are a tricky bake and many have tried and failed (including myself) at making the difficult, delicate, and delicious sandwich cookie. But, first, please say it with me, “It’s mack-uh-RONS, not mack-uh-ROONS!”
+
+My inner Hermione is happy having cleared that up. Now, who remembers *mise en place* from my cookie blog? All of you? Wonderful! Let me give you a few more pointers on how I prepare my kitchen and myself for the task of making macarons. 
+
+First, make a macaron template. To do this, cut parchment paper to fit the sheet pan you’ll be using. Using a ruler and a permanent marker, draw plus signs that are 1 inch in length and height. If you happen to have a 1 inch cookie or biscuit cutter, you can simply trace circles that are 1 inch in diameter. Give 2 inches of space between plus signs or circles so the macarons won’t touch each other once they’re piped. When using your homemade template, place another sheet of parchment paper on top before piping your macarons. This will prevent you from accidentally transferring permanent marker ink onto your cookies and your template won’t get dirty which means you can reuse it many times!
+
+The next step is prepping your piping bag. To do this, place a small-medium sized piping tip (I use an 806) inside a piping bag and slide it down to the end. Snip off the end of the bag with a pair of kitchen shears and wiggle the piping tip snug into place. Twist the portion of the piping bag just about the piping tip in order to create a stop above the tip. Once you begin filling your piping bag with macaron batter, this twist will help prevent batter from pouring out of the tip. 
+
+Now, you can move onto the prepping of your tools and ingredients to be used during the making of your macaron batter. Sift the powdered sugar and almond flour together into a mixing bowl and set aside. Measure the two amounts of egg whites into separate containers. Measure the water into a saucepan followed by the sugar. This order is important! If you pour the sugar in first and the water on top, you risk burning sugar granules on the bottom of the saucepan which can ruin your sugar syrup. Make sure to add your water first which helps create a hydration barrier on the bottom of the pan and then add your sugar on top. 
+
+Place your saucepan over medium-high heat. It can take several minutes for your syrup to come to the desired temperature of 248º F. So, while your syrup comes to temperature add the vanilla extract and first amount of egg whites into the mixing bowl with the almond flour mixture. With a rubber spatula, mix all these ingredients together until a paste is formed and set aside. Next, place the second amount of egg whites into a mixer bowl with a pinch of salt, but don’t start the mixer right away. Wait until the syrup reaches 220º F whipping the egg whites. Waiting until this point to whip the eggs helps avoid over-whipping the whites which can lead to your macaron shells cracking in the oven or as they cool.
+
+Constantly monitor the temperature of your syrup. Once it reaches 220º F start whipping your egg whites on medium speed. It should take less than a minute for your egg whites to become foamy. Once the egg whites are foamy, turn the mixer down to the lowest speed to keep the egg whites foamy while preventing them from overwhipping. Once the syrup reaches 248º F, turn off the heat and immediately start pouring the syrup into the egg whites as slowly as possible. At first, the mixer should be on a low speed (between 2-3). Once you've added about half of the syrup increase the mixer speed to medium (between 4-6) while continuing to pour the syrup in as slowly as possible until it is all added. Once all the syrup has been added to the mixer, let the mixer continue to whip the meringue for about 5 minutes. During the mixing time you should feel the temperature of the mixer bowl with your hand using caution because it will be extremely hot at first. The mixer bowl should come to room temperature or be slightly warm by the end of the 5 minutes. 
+
+At this time stop the mixer and check the peaks of your meringue by unlocking your whisk attachment and turning it upside down in your hand. If the peaks are stiff then your meringue is ready to go. 
+
+Place ⅓ of the meringue into the bowl with the almond paste mixture. With a rubber spatula, fold the first portion of meringue into the almond paste to lighten up the consistency of the thick paste. Once the first third of the meringue is evenly incorporated into the batter, add the second third using a gentler hand. After ⅔ of the meringue has been incorporated, fold the last third of the meringue into the batter. The batter is ready to pipe when it slowly slides off your spatula like molten lava. 
+
+Transfer the batter to the piping bag you prepared earlier and begin piping on to the template you made. The key to piping the classic shape is to stop pressure once the shell meets the desired size and quickly jerk the tip of the bag toward yourself to avoid leaving a peak on the shell. Once you’ve got an entire sheet full of meringue shells, tap the sheet onto your counter to knock out any air bubbles. If your shells still have little peaks from piping, dip your ring finger into some water and lightly press the peaks down. Once your shells are piped, let them sit in the open air for about 30 minutes or until the shells are completely dry. The shells need to develop a delicate “skin“ before they are ready to bake. You should be able to touch the top of your shells without having any batter come off on your finger. 
+
+Once the shells are completely dry they are ready for the oven. Bake the shells for 8-10 minutes at 350ª F. You should see “feet” (frilly bottoms) on your meringues within just a few minutes. Once they are done baking, place the sheets on a cooling rack and allow the shells to cool down fully before removing them from the pan. 
+
+Now, a quick word before you move onto filling your macarons. I like to call this step “match-making”. Match up the shells by holding them insides-together to find the most even match in both size and shape. If they look even and close in size, place one shell right side up and the other shell upside down. Continue this process until all the shells are matched up in a line. This makes piping the filling into the macarons so much easier. 
+
+Finally, fill a piping bag with buttercream, jam, ganache, or whatever filling you’d like and get to work by piping the filling onto the bottom shell. Once the bottom shell is filled, you can easily pick up the top shell you designated earlier and gently press it onto the filling to make the iconic sandwich cookie!
+
+I hope you’ve found this helpful, informative, and encouraging. These macarons can be eaten right away or stored in the refrigerator for 3 days or the freezer for a month. From my oven to yours, happy baking!
