@@ -1,6 +1,6 @@
-import type { ImageBaseRelationT } from '@/types'
-import type { ResourceBaseI } from '@/interfaces'
+import type { ImageT } from '@/types'
+import type { ResourceI } from '@/interfaces'
 
-export interface AuthorBaseI extends ResourceBaseI {
-  image: ImageBaseRelationT
+export interface ContentI extends ResourceI.ContentI {
+  image: ImageT.RelationT
 }

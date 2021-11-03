@@ -1,7 +1,7 @@
-import type { BlogBaseRelationsT, RecipeBaseRelationsT } from '@/types'
-import type { ResourceBaseI } from '@/interfaces'
+import type { BlogT, RecipeT } from '@/types'
+import type { ResourceI } from '@/interfaces'
 
-export interface SeriesBaseI extends ResourceBaseI {
-  blogs: BlogBaseRelationsT
-  recipes: RecipeBaseRelationsT
+export interface ContentI extends ResourceI.ContentI {
+  blogs: BlogT.RelationsT
+  recipes: RecipeT.RelationsT
 }

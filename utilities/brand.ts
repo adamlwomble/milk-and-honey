@@ -1,19 +1,24 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { BrandBaseContentT, BrandBaseResultT } from '@/types'
-import type { BrandBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { BrandT } from '@/types'
+import type { BrandI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function brandBaseResultFilter(
-  result: BrandBaseResultT,
-  value: any,
-  key: keyof BrandBaseContentT
-): BrandBaseResultT {
-  return resultFilter<BrandBaseI>(result, value, key)
+export async function fetch($content: contentFunc): Promise<BrandT.DocumentsT> {
+  return await Content.fetch<BrandI.ContentI>($content, 'brand')
 }
 
-export function brandBaseResultFind(
-  result: BrandBaseResultT,
+export function filter(
+  documents: BrandT.DocumentsT,
   value: any,
-  key: keyof BrandBaseContentT
-): BrandBaseResultT {
-  return resultFind<BrandBaseI>(result, value, key)
+  key: keyof BrandT.DocumentT = 'slug'
+): BrandT.DocumentsSearchT {
+  return Content.filter<BrandI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: BrandT.DocumentsT,
+  value: any,
+  key: keyof BrandT.DocumentT = 'slug'
+): BrandT.DocumentSearchT {
+  return Content.find<BrandI.ContentI>(documents, value, key)
 }

@@ -1,5 +1,5 @@
-import type { ResourceBaseI } from '@/interfaces'
+import type { AssetI } from '@/interfaces'
 
-export interface ImageBaseI extends ResourceBaseI {
-  src: string
+export interface ContentI extends AssetI.ContentI {
+  alt: string
 }

@@ -1,5 +1,5 @@
-import type { ResourceBaseI } from '@/interfaces'
+import type { ResourceI } from '@/interfaces'
 
-export interface AllergenBaseI extends ResourceBaseI {
+export interface ContentI extends ResourceI.ContentI {
   emoji: string
 }

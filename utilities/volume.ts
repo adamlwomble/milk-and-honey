@@ -1,19 +1,26 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { VolumeBaseContentT, VolumeBaseResultT } from '@/types'
-import type { VolumeBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { VolumeT } from '@/types'
+import type { VolumeI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function volumeBaseResultFilter(
-  result: VolumeBaseResultT,
-  value: any,
-  key: keyof VolumeBaseContentT
-): VolumeBaseResultT {
-  return resultFilter<VolumeBaseI>(result, value, key)
+export async function fetch(
+  $content: contentFunc
+): Promise<VolumeT.DocumentsT> {
+  return await Content.fetch<VolumeI.ContentI>($content, 'volume')
 }
 
-export function volumeBaseResultFind(
-  result: VolumeBaseResultT,
+export function filter(
+  documents: VolumeT.DocumentsT,
   value: any,
-  key: keyof VolumeBaseContentT
-): VolumeBaseResultT {
-  return resultFind<VolumeBaseI>(result, value, key)
+  key: keyof VolumeT.DocumentT = 'slug'
+): VolumeT.DocumentsT {
+  return Content.filter<VolumeI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: VolumeT.DocumentsT,
+  value: any,
+  key: keyof VolumeT.DocumentT = 'slug'
+): VolumeT.DocumentsT {
+  return Content.find<VolumeI.ContentI>(documents, value, key)
 }

@@ -19,7 +19,7 @@ collections:
   - name: allergens
     label: Allergens
     label_singular: Allergen
-    folder: content/allergens
+    folder: content/allergen
     create: true
     extension: json
     fields:
@@ -32,7 +32,7 @@ collections:
   - name: authors
     label: Authors
     label_singular: Author
-    folder: content/authors
+    folder: content/author
     create: true
     extension: json
     fields:
@@ -55,7 +55,7 @@ collections:
   - name: blogs
     label: Blogs
     label_singular: Blog
-    folder: content/blogs
+    folder: content/blog
     create: true
     extension: md
     fields:
@@ -110,7 +110,7 @@ collections:
   - name: brands
     label: Brands
     label_singular: Brand
-    folder: content/brands
+    folder: content/brand
     create: true
     extension: json
     fields:
@@ -127,7 +127,7 @@ collections:
   - name: categories
     label: Categories
     label_singular: Category
-    folder: content/categories
+    folder: content/category
     create: true
     extension: json
     fields:
@@ -143,7 +143,7 @@ collections:
   - name: foodDataCentrals
     label: Food Data Centrals
     label_singular: Food Data Central
-    folder: content/foodDataCentrals
+    folder: content/foodDataCentral
     create: true
     extension: json
     fields:
@@ -181,7 +181,7 @@ collections:
   - name: images
     label: Images
     label_singular: Image
-    folder: content/images
+    folder: content/image
     create: true
     extension: json
     fields:
@@ -197,7 +197,7 @@ collections:
   - name: ingredients
     label: Ingredients
     label_singular: Ingredient
-    folder: content/ingredients
+    folder: content/ingredient
     create: true
     extension: json
     fields:
@@ -243,7 +243,7 @@ collections:
   - name: recipes
     label: Recipes
     label_singular: Recipe
-    folder: content/recipes
+    folder: content/recipe
     create: true
     extension: md
     fields:
@@ -394,7 +394,7 @@ collections:
   - name: volumes
     label: Volumes
     label_singular: Volume
-    folder: content/volumes
+    folder: content/volume
     create: true
     extension: json
     fields:
@@ -407,7 +407,7 @@ collections:
   - name: weights
     label: Weights
     label_singular: Weight
-    folder: content/weights
+    folder: content/weight
     create: true
     extension: json
     fields:

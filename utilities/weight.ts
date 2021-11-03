@@ -1,19 +1,26 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { WeightBaseContentT, WeightBaseResultT } from '@/types'
-import type { WeightBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { WeightT } from '@/types'
+import type { WeightI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function weightBaseResultFilter(
-  result: WeightBaseResultT,
-  value: any,
-  key: keyof WeightBaseContentT
-): WeightBaseResultT {
-  return resultFilter<WeightBaseI>(result, value, key)
+export async function fetch(
+  $content: contentFunc
+): Promise<WeightT.DocumentsT> {
+  return await Content.fetch<WeightI.ContentI>($content, 'weight')
 }
 
-export function weightBaseResultFind(
-  result: WeightBaseResultT,
+export function filter(
+  documents: WeightT.DocumentsT,
   value: any,
-  key: keyof WeightBaseContentT
-): WeightBaseResultT {
-  return resultFind<WeightBaseI>(result, value, key)
+  key: keyof WeightT.DocumentT = 'slug'
+): WeightT.DocumentsT {
+  return Content.filter<WeightI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: WeightT.DocumentsT,
+  value: any,
+  key: keyof WeightT.DocumentT = 'slug'
+): WeightT.DocumentsT {
+  return Content.find<WeightI.ContentI>(documents, value, key)
 }

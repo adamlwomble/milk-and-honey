@@ -1,19 +1,24 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { ImageBaseContentT, ImageBaseResultT } from '@/types'
-import type { ImageBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { ImageT } from '@/types'
+import type { ImageI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function imageBaseResultFilter(
-  result: ImageBaseResultT,
-  value: any,
-  key: keyof ImageBaseContentT
-): ImageBaseResultT {
-  return resultFilter<ImageBaseI>(result, value, key)
+export async function fetch($content: contentFunc): Promise<ImageT.DocumentsT> {
+  return await Content.fetch<ImageI.ContentI>($content, 'image')
 }
 
-export function imageBaseResultFind(
-  result: ImageBaseResultT,
+export function filter(
+  documents: ImageT.DocumentsT,
   value: any,
-  key: keyof ImageBaseContentT
-): ImageBaseResultT {
-  return resultFind<ImageBaseI>(result, value, key)
+  key: keyof ImageT.DocumentT = 'slug'
+): ImageT.QueryResultT {
+  return Content.filter<ImageI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: ImageT.DocumentsT,
+  value: any,
+  key: keyof ImageT.DocumentT = 'slug'
+): ImageT.QueryResultT {
+  return Content.find<ImageI.ContentI>(documents, value, key)
 }

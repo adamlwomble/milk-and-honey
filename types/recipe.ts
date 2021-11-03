@@ -1,21 +1,18 @@
-import type {
-  ContentsT,
-  ContentT,
-  PageT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { RecipeBaseI, RecipePageI } from '@/interfaces'
+import type { ContentT, MetaT } from '@/types'
+import type { RecipeI } from '@/interfaces'
 
-export type RecipeBaseContentT = ContentT<RecipeBaseI>
+export type DocumentT = ContentT.DocumentT<RecipeI.ContentI>
 
-export type RecipeBaseContentsT = ContentsT<RecipeBaseI>
+export type DocumentSearchT = ContentT.DocumentSearchT<RecipeI.ContentI>
 
-export type RecipePageT = PageT<RecipePageI>
+export type DocumentsT = ContentT.DocumentsT<RecipeI.ContentI>
 
-export type RecipeBaseRelationT = RelationT<RecipeBaseI>
+export type DocumentsSearchT = ContentT.DocumentsSearchT<RecipeI.ContentI>
 
-export type RecipeBaseRelationsT = RelationsT<RecipeBaseI>
+export type PageT = MetaT.PageT<RecipeI.PageI>
 
-export type RecipeBaseResultT = ResultT<RecipeBaseI>
+export type QueryResultT = ContentT.QueryResultT<RecipeI.ContentI>
+
+export type RelationT = ContentT.RelationT<RecipeI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<RecipeI.ContentI>

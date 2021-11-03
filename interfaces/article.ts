@@ -1,13 +1,10 @@
-import type {
-  CategoryBaseRelationsT,
-  ImageBaseRelationT,
-  SeriesBaseRelationT,
-} from '@/types'
-import type { ResourceBaseI } from '@/interfaces'
+import type { AuthorT, CategoryT, ImageT, SeriesT } from '@/types'
+import type { ResourceI } from '@/interfaces'
 
-export interface ArticleBaseI extends ResourceBaseI {
-  categories: CategoryBaseRelationsT
-  cover: ImageBaseRelationT
+export interface ContentI extends ResourceI.ContentI {
+  authors: AuthorT.RelationsT
+  categories: CategoryT.RelationsT
+  cover: ImageT.RelationT
   publish: string
-  series: SeriesBaseRelationT
+  series: SeriesT.RelationT
 }

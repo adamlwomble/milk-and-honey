@@ -1,8 +1,8 @@
-import type { BrandBaseRelationT, IngredientBaseRelationT } from '@/types'
-import type { ResourceBaseI } from '@/interfaces'
+import type { BrandT, IngredientT } from '@/types'
+import type { ResourceI } from '@/interfaces'
 
-export interface FoodDataCentralBaseI extends ResourceBaseI {
-  brand: BrandBaseRelationT
+export interface ContentI extends ResourceI.ContentI {
+  brand: BrandT.RelationT
   fdcId: number
-  ingredient: IngredientBaseRelationT
+  ingredient: IngredientT.RelationT
 }

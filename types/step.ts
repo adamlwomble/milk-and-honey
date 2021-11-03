@@ -1,18 +1,16 @@
-import type {
-  ContentsT,
-  ContentT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { StepBaseI } from '@/interfaces'
+import type { ContentT } from '@/types'
+import type { StepI } from '@/interfaces'
 
-export type StepBaseContentT = ContentT<StepBaseI>
+export type DocumentT = ContentT.DocumentT<StepI.ContentI>
 
-export type StepBaseContentsT = ContentsT<StepBaseI>
+export type DocumentSearchT = ContentT.DocumentSearchT<StepI.ContentI>
 
-export type StepBaseRelationT = RelationT<StepBaseI>
+export type DocumentsT = ContentT.DocumentsT<StepI.ContentI>
 
-export type StepBaseRelationsT = RelationsT<StepBaseI>
+export type DocumentsSearchT = ContentT.DocumentsSearchT<StepI.ContentI>
 
-export type StepBaseResultT = ResultT<StepBaseI>
+export type QueryResultT = ContentT.QueryResultT<StepI.ContentI>
+
+export type RelationT = ContentT.RelationT<StepI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<StepI.ContentI>

@@ -1,19 +1,26 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { IngredientBaseContentT, IngredientBaseResultT } from '@/types'
-import type { IngredientBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { IngredientT } from '@/types'
+import type { IngredientI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function ingredientBaseResultFilter(
-  result: IngredientBaseResultT,
-  value: any,
-  key: keyof IngredientBaseContentT
-): IngredientBaseResultT {
-  return resultFilter<IngredientBaseI>(result, value, key)
+export async function fetch(
+  $content: contentFunc
+): Promise<IngredientT.DocumentsT> {
+  return await Content.fetch<IngredientI.ContentI>($content, 'ingredient')
 }
 
-export function ingredientBaseResultFind(
-  result: IngredientBaseResultT,
+export function filter(
+  documents: IngredientT.DocumentsT,
   value: any,
-  key: keyof IngredientBaseContentT
-): IngredientBaseResultT {
-  return resultFind<IngredientBaseI>(result, value, key)
+  key: keyof IngredientT.DocumentT = 'slug'
+): IngredientT.QueryResultT {
+  return Content.filter<IngredientI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: IngredientT.DocumentsT,
+  value: any,
+  key: keyof IngredientT.DocumentT = 'slug'
+): IngredientT.QueryResultT {
+  return Content.find<IngredientI.ContentI>(documents, value, key)
 }

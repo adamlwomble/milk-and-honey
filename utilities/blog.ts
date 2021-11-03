@@ -1,19 +1,24 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { BlogBaseContentT, BlogBaseResultT } from '@/types'
-import type { BlogBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { BlogT } from '@/types'
+import type { BlogI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function blogBaseResultFilter(
-  result: BlogBaseResultT,
-  value: any,
-  key: keyof BlogBaseContentT
-): BlogBaseResultT {
-  return resultFilter<BlogBaseI>(result, value, key)
+export async function fetch($content: contentFunc): Promise<BlogT.DocumentsT> {
+  return await Content.fetch<BlogI.ContentI>($content, 'blog')
 }
 
-export function blogBaseResultFind(
-  result: BlogBaseResultT,
+export function filter(
+  documents: BlogT.DocumentsT,
   value: any,
-  key: keyof BlogBaseContentT
-): BlogBaseResultT {
-  return resultFind<BlogBaseI>(result, value, key)
+  key: keyof BlogT.DocumentT = 'slug'
+): BlogT.DocumentsSearchT {
+  return Content.filter<BlogI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: BlogT.DocumentsT,
+  value: any,
+  key: keyof BlogT.DocumentT = 'slug'
+): BlogT.DocumentSearchT {
+  return Content.find<BlogI.ContentI>(documents, value, key)
 }

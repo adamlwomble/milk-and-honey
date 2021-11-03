@@ -1,19 +1,26 @@
-import { resultFilter, resultFind } from '@/utilities'
-import type { AllergenBaseContentT, AllergenBaseResultT } from '@/types'
-import type { AllergenBaseI } from '@/interfaces'
+import type { contentFunc } from '@nuxt/content/types/content'
+import type { AllergenT } from '@/types'
+import type { AllergenI } from '@/interfaces'
+import { Content } from '@/utilities'
 
-export function allergenBaseResultFilter(
-  result: AllergenBaseResultT,
-  value: any,
-  key: keyof AllergenBaseContentT
-): AllergenBaseResultT {
-  return resultFilter<AllergenBaseI>(result, value, key)
+export async function fetch(
+  $content: contentFunc
+): Promise<AllergenT.DocumentsT> {
+  return await Content.fetch<AllergenI.ContentI>($content, 'allergen')
 }
 
-export function allergenBaseResultFind(
-  result: AllergenBaseResultT,
+export function filter(
+  documents: AllergenT.DocumentsT,
   value: any,
-  key: keyof AllergenBaseContentT
-): AllergenBaseResultT {
-  return resultFind<AllergenBaseI>(result, value, key)
+  key: keyof AllergenT.DocumentT = 'slug'
+): AllergenT.DocumentsSearchT {
+  return Content.filter<AllergenI.ContentI>(documents, value, key)
+}
+
+export function find(
+  documents: AllergenT.DocumentsT,
+  value: any,
+  key: keyof AllergenT.DocumentT = 'slug'
+): AllergenT.DocumentSearchT {
+  return Content.find<AllergenI.ContentI>(documents, value, key)
 }

@@ -1,18 +1,16 @@
-import type {
-  ContentsT,
-  ContentT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { VolumeBaseI } from '@/interfaces'
+import type { ContentT } from '@/types'
+import type { VolumeI } from '@/interfaces'
 
-export type VolumeBaseContentT = ContentT<VolumeBaseI>
+export type DocumentT = ContentT.DocumentT<VolumeI.ContentI>
 
-export type VolumeBaseContentsT = ContentsT<VolumeBaseI>
+export type DocumentSearchT = ContentT.DocumentSearchT<VolumeI.ContentI>
 
-export type VolumeBaseRelationT = RelationT<VolumeBaseI>
+export type DocumentsT = ContentT.DocumentsT<VolumeI.ContentI>
 
-export type VolumeBaseRelationsT = RelationsT<VolumeBaseI>
+export type DocumentsSearchT = ContentT.DocumentsSearchT<VolumeI.ContentI>
 
-export type VolumeBaseResultT = ResultT<VolumeBaseI>
+export type QueryResultT = ContentT.QueryResultT<VolumeI.ContentI>
+
+export type RelationT = ContentT.RelationT<VolumeI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<VolumeI.ContentI>
