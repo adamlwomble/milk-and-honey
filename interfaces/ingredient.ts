@@ -1,16 +1,10 @@
-import type {
-  AllergenBaseRelationsT,
-  BrandBaseRelationsT,
-  RecipeBaseRelationT,
-  VolumeBaseRelationT,
-  WeightBaseRelationT,
-} from '@/types'
-import type { ResourceBaseI } from '@/interfaces'
+import type { AllergenT, BrandT, RecipeT, VolumeT, WeightT } from '@/types'
+import type { ResourceI } from '@/interfaces'
 
-export interface IngredientBaseI extends ResourceBaseI {
-  allergens: AllergenBaseRelationsT
-  brands: BrandBaseRelationsT
-  volume: VolumeBaseRelationT
-  weight: WeightBaseRelationT
-  recipe: RecipeBaseRelationT
+export interface ContentI extends ResourceI.ContentI {
+  allergens: AllergenT.RelationsT
+  brands: BrandT.RelationsT
+  recipe: RecipeT.RelationT
+  volume: VolumeT.RelationT
+  weight: WeightT.RelationT
 }

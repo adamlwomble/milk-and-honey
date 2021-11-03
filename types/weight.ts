@@ -1,18 +1,16 @@
-import type {
-  ContentsT,
-  ContentT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { WeightBaseI } from '@/interfaces'
+import type { ContentT } from '@/types'
+import type { WeightI } from '@/interfaces'
 
-export type WeightBaseContentT = ContentT<WeightBaseI>
+export type DocumentT = ContentT.DocumentT<WeightI.ContentI>
 
-export type WeightBaseContentsT = ContentsT<WeightBaseI>
+export type DocumentSearchT = ContentT.DocumentSearchT<WeightI.ContentI>
 
-export type WeightBaseRelationT = RelationT<WeightBaseI>
+export type DocumentsT = ContentT.DocumentsT<WeightI.ContentI>
 
-export type WeightBaseRelationsT = RelationsT<WeightBaseI>
+export type DocumentsSearchT = ContentT.DocumentsSearchT<WeightI.ContentI>
 
-export type WeightBaseResultT = ResultT<WeightBaseI>
+export type QueryResultT = ContentT.QueryResultT<WeightI.ContentI>
+
+export type RelationT = ContentT.RelationT<WeightI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<WeightI.ContentI>

@@ -1,4 +1,4 @@
-export interface ResourceBaseI {
+export interface ContentI {
   description: string
   title: string
 }

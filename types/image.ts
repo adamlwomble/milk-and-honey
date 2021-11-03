@@ -1,18 +1,16 @@
-import type {
-  ContentsT,
-  ContentT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { ImageBaseI } from '@/interfaces'
+import type { ContentT } from '@/types'
+import type { ImageI } from '@/interfaces'
 
-export type ImageBaseContentT = ContentT<ImageBaseI>
+export type DocumentT = ContentT.DocumentT<ImageI.ContentI>
 
-export type ImageBaseContentsT = ContentsT<ImageBaseI>
+export type DocumentSearchT = ContentT.DocumentSearchT<ImageI.ContentI>
 
-export type ImageBaseRelationT = RelationT<ImageBaseI>
+export type DocumentsT = ContentT.DocumentsT<ImageI.ContentI>
 
-export type ImageBaseRelationsT = RelationsT<ImageBaseI>
+export type DocumentsSearchT = ContentT.DocumentsSearchT<ImageI.ContentI>
 
-export type ImageBaseResultT = ResultT<ImageBaseI>
+export type QueryResultT = ContentT.QueryResultT<ImageI.ContentI>
+
+export type RelationT = ContentT.RelationT<ImageI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<ImageI.ContentI>

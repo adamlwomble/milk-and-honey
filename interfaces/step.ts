@@ -1,3 +1,3 @@
-import type { ArticleBaseI } from '@/interfaces'
+import type { ArticleI } from '@/interfaces'
 
-export interface StepBaseI extends ArticleBaseI {}
+export interface ContentI extends ArticleI.ContentI {}

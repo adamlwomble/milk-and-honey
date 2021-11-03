@@ -1,10 +1,11 @@
-import type { ResourceBaseI } from '@/interfaces'
+import type { AuthorT } from '@/types'
+import type { ResourceI } from '@/interfaces'
 
-export interface MetaBaseI {
-  content: string
-  name: string
+export interface ContentI extends ResourceI.ContentI {
+  authors: AuthorT.RelationsT
 }
 
-export interface MetaPageI extends ResourceBaseI {
-  author: string
+export interface TagI {
+  content: string
+  name: string
 }

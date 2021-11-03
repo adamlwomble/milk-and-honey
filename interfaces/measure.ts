@@ -1,5 +1,5 @@
-import type { ResourceBaseI } from '@/interfaces'
+import type { ResourceI } from '@/interfaces'
 
-export interface MeasureBaseI extends ResourceBaseI {
+export interface ContentI extends ResourceI.ContentI {
   amount: number
 }

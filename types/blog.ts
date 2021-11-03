@@ -1,21 +1,18 @@
-import type {
-  ContentsT,
-  ContentT,
-  PageT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { BlogBaseI, BlogPageI } from '@/interfaces'
+import type { ContentT, MetaT } from '@/types'
+import type { BlogI } from '@/interfaces'
 
-export type BlogBaseContentT = ContentT<BlogBaseI>
+export type DocumentT = ContentT.DocumentT<BlogI.ContentI>
 
-export type BlogBaseContentsT = ContentsT<BlogBaseI>
+export type DocumentSearchT = ContentT.DocumentSearchT<BlogI.ContentI>
 
-export type BlogPageT = PageT<BlogPageI>
+export type DocumentsT = ContentT.DocumentsT<BlogI.ContentI>
 
-export type BlogBaseRelationT = RelationT<BlogBaseI>
+export type DocumentsSearchT = ContentT.DocumentsSearchT<BlogI.ContentI>
 
-export type BlogBaseRelationsT = RelationsT<BlogBaseI>
+export type PageT = MetaT.PageT<BlogI.PageI>
 
-export type BlogBaseResultT = ResultT<BlogBaseI>
+export type QueryResultT = ContentT.QueryResultT<BlogI.ContentI>
+
+export type RelationT = ContentT.RelationT<BlogI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<BlogI.ContentI>

@@ -1,3 +1,3 @@
-import type { MeasureBaseI } from '@/interfaces'
+import type { MeasureI } from '@/interfaces'
 
-export interface WeightBaseI extends MeasureBaseI {}
+export interface ContentI extends MeasureI.ContentI {}

@@ -1,18 +1,18 @@
-import type {
-  ContentsT,
-  ContentT,
-  RelationsT,
-  RelationT,
-  ResultT,
-} from '@/types'
-import type { FoodDataCentralBaseI } from '@/interfaces'
+import type { ContentT } from '@/types'
+import type { FoodDataCentralI } from '@/interfaces'
 
-export type FoodDataCentralBaseContentT = ContentT<FoodDataCentralBaseI>
+export type DocumentT = ContentT.DocumentT<FoodDataCentralI.ContentI>
 
-export type FoodDataCentralBaseContentsT = ContentsT<FoodDataCentralBaseI>
+export type DocumentSearchT =
+  ContentT.DocumentSearchT<FoodDataCentralI.ContentI>
 
-export type FoodDataCentralBaseRelationT = RelationT<FoodDataCentralBaseI>
+export type DocumentsT = ContentT.DocumentsT<FoodDataCentralI.ContentI>
 
-export type FoodDataCentralBaseRelationsT = RelationsT<FoodDataCentralBaseI>
+export type DocumentsSearchT =
+  ContentT.DocumentsSearchT<FoodDataCentralI.ContentI>
 
-export type FoodDataCentralBaseResultT = ResultT<FoodDataCentralBaseI>
+export type QueryResultT = ContentT.QueryResultT<FoodDataCentralI.ContentI>
+
+export type RelationT = ContentT.RelationT<FoodDataCentralI.ContentI>
+
+export type RelationsT = ContentT.RelationsT<FoodDataCentralI.ContentI>
